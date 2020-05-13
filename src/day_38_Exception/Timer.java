@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class Timer {
     public static void main (String[] args) {
+
         Scanner scanner = new Scanner ( System.in );
         System.out.println("please enter the number of minutes");
-
         int m = scanner.nextInt ();
         while (m > 0) {
             m--;
