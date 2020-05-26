@@ -13,6 +13,9 @@ public class r100Practice {
         System.out.println (num+num2);
         System.out.println ("Azure");
                 System.out.println ("Cyan");
+                System.out.println ("pink");
+
+        
 
 
 
