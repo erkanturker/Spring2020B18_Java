@@ -8,6 +8,8 @@ public class r100Practice {
         System.out.println ("practive");
         SimpleDateFormat dateFormat = new SimpleDateFormat ( "yyyy-mm-dd" );
         System.out.println (dateFormat.format ( new Date (  ) ));
+        int num=0;
+
 
     }
 }
