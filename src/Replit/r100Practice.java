@@ -11,6 +11,8 @@ public class r100Practice {
         int num=5;
         int num2=3;
         System.out.println (num+num2);
+        System.out.println ("Azure");
+
 
         
 
