@@ -15,10 +15,10 @@ public class r100Practice {
                 System.out.println ("Cyan");
                 System.out.println ("pink");
 
+
         
 
 
-        
 
     }
 }
