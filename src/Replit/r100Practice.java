@@ -17,7 +17,6 @@ public class r100Practice {
         System.out.println ( "blue" );
         System.out.println ( "black" );
         System.out.println ( "Purple" );
-
         System.out.println ( "French vo=iloat" );
 
 
