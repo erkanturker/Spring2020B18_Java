@@ -9,6 +9,7 @@ public class r100Practice {
         SimpleDateFormat dateFormat = new SimpleDateFormat ( "yyyy-mm-dd" );
         System.out.println (dateFormat.format ( new Date (  ) ));
         int num=0;
+        System.out.println (num);
 
 
     }
