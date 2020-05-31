@@ -17,7 +17,7 @@ public class Timer {
                     Thread.sleep ( 1000 );
                     s--;
                     System.out.println ( m + " Minutes and " + s + " Seconds" );
-                } catch (Exception e) {
+                } catch (InterruptedException e) {
                     System.out.println ( "This is an Exception" );
                 }
             }

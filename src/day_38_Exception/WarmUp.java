@@ -23,7 +23,9 @@ public class WarmUp {
         try {
             FileInputStream file = new FileInputStream ( path );
             property.load ( file );
-        } catch (Exception e) {
+        } catch (FileNotFoundException e) {
+            e.printStackTrace ();
+        } catch (IOException e) {
             e.printStackTrace ();
         }
 

@@ -38,12 +38,7 @@ public class ExceptionHandling {
         ArrayList<Integer> list = new ArrayList<> (  );
         list.addAll ( Arrays.asList(1,2,4,5));
 
-        try {
-            list.get ( 6 );
-        }
-        catch (Exception e){
-            System.out.println ("unchecked exception occured ");
-        }
+        list.get ( 6 );
 
 
     }
