@@ -21,14 +21,14 @@ public class DifferenceBetweenArrayList {
 
     public static void timeCalculator (String listType, List< String > list) {
 
-       // int startTime = (int) System.currentTimeMillis ();
+       int startTime = (int) System.currentTimeMillis ();
 
         for (int i = 0; i < 10000000; i++) {
             list.add ("" + i );
         }
 
-       // int finishTime = (int) System.currentTimeMillis ();
-        //System.out.println ( listType + " " + (finishTime - startTime) + " ms" );
+       int finishTime = (int) System.currentTimeMillis ();
+        System.out.println ( listType + " " + (finishTime - startTime) + " ms" );
 
 
     }
