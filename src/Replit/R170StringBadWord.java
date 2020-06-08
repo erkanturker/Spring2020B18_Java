@@ -8,6 +8,12 @@ public class R170StringBadWord {
     public static void main (String[] args) {
         // System.out.println ( isPalindrome ( "is palindrom" ) );
         System.out.println ( isAnagram ( "iock", "kioc" ) );
+        System.out.println (calc.minus ( 1,2 ));
+        System.out.println (calc.coverString ( "erkan","m" ));
+        String [] arr ={"apple", "pear"};
+        String [] arr1 =calc.reverse ( arr );
+        System.out.println (Arrays.toString ( arr1 ));
+
     }
 
     public static String clean (String text, String badWord) {
@@ -55,4 +61,34 @@ public class R170StringBadWord {
         }
         return false;
     }
+
+
 }
+class calc{
+    public static int plus(int a, int b){
+        return a+b;
+    }
+    public static int minus(int a, int b){
+        return a-b;
+    }
+    public static String coverString(String main, String coverME) {
+        String newWord= "";
+         main= main.replace ( coverME,"["+coverME+"]" );
+         if(!main.contains ( coverME )){
+             main= "["+main+"]";
+         }
+
+    return main;
+    }
+    public static String[] reverse(String[] arr) {
+        String [] newArr = new String[arr.length];
+        int z=0;
+        for (int i = arr.length-1; i >=0 ; i--) {
+            newArr[z]=arr[i];
+            z++;
+        }
+        return newArr;
+    }
+}
+
+
