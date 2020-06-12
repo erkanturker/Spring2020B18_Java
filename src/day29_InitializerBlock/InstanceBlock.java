@@ -11,6 +11,9 @@ public class InstanceBlock {
     public InstanceBlock(){
         System.out.println("This is Constructor");
     }
+    static {
+        System.out.println ("static init Block");
+    }
 
     {
         System.out.println("Instance Block");
