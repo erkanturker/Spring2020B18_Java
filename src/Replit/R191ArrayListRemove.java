@@ -22,7 +22,7 @@ public class R191ArrayListRemove {
 
 
         int[] sums = rowSums ( a );
-for(int sum : sums) System.out.println(sum);
+        for (int sum : sums) System.out.println ( sum );
         //this should print 4 6 11 3
 
 
@@ -49,11 +49,21 @@ for(int sum : sums) System.out.println(sum);
         for (int i = 0; i < nums.length; i++) {
             int total = 0;
             for (int j = 0; j < nums[i].length; j++) {
-                total+=nums[i][j];
+                total += nums[i][j];
             }
-            rowNum[i]=total;
+            rowNum[i] = total;
         }
         return rowNum;
     }
+
+    public static int[] do_switch (int[] i) {
+
+
+        int tempNum = i[0];
+        i[0] = i[i.length - 1];
+        i[i.length - 1] = tempNum;
+        return i;
+    }
+
 
 }
